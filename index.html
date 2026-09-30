@@ -3,19 +3,30 @@
     <head>
         <link rel="stylesheet" href="style.css">
         <meta charset="utf-8">
+        <script>
+
+            var password = prompt("Enter Password Here:");
+            var correctPassword = "bigBooty";
+            if (password === correctPassword) {
+                console.log("Access Granted");
+            } else {
+                window.close();
+            }
+
+        </script>
     </head>
     <body>
         <nav>
             <h1>Untitled</h1>
             <ul id="nav-ul">
                 <li >
-                    <a href="index.html">Home</a>
+                    <a class="navLinks" href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="days.html">Days</a>
+                    <a class="navLinks" href="days.html">Days</a>
                 </li>
                 <li>
-                    <a href="muscleGroups.html">Muscle Groups</a>
+                    <a class="navLinks" href="muscleGroups.html">Muscle Groups</a>
                 </li>
             </ul>
         </nav>
